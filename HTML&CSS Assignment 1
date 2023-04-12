@@ -1,0 +1,22 @@
+HTML:
+
+<div class="container"> 
+  <header>Header</header> 
+  <main>Content</main> 
+  <footer>Footer</footer> 
+</div>
+
+CSS:
+.container { 
+   display: flex; 
+   flex-direction: column; 
+   min-height: 100vh; 
+} 
+
+ header { 
+   position: fixed; 
+   top: 0; width: 100%; }
+
+ main { flex-grow: 1; text-align: center; }
+
+ footer { position: fixed; bottom: 0; width: 100%; }
